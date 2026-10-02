@@ -25,7 +25,6 @@ public class PowerPill
         this.power = DEFAULT_POWER;
     }
 
-
     public PowerPill(String name, int power){
         this.name = name;
         this.power = power;
