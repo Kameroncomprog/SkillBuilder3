@@ -9,7 +9,52 @@
  */
 public class PowerPill
 {
-    // TODO - replace this line with instruction from step 1
+    static int DEFAULT_POWER = 10;
+    static int power;
+    static String name;
+
+    /**
+     * Initializes this power pill to a default power value
+     * and sets the name of the pill to name.
+     * @param name the name of this power pill.
+     */
+
+
+    public PowerPill(String name){
+        this.name = name;
+        this.power = DEFAULT_POWER;
+    }
+
+    public PowerPill(String name, int power){
+        this.name = name;
+        this.power = power;
+    }
+
+    public static int staticgetPower(){
+        return power;
+    }
+
+    public static String getName(){
+        return name;
+    }
+
+    public void setName(String name){
+        this.name = name;
+    }
+
+    public void setPower(int power){
+        this.power = power;
+    }
+    // get.power return power
+    // set.power return power
+
+    public String toString(){
+        String temp = "PowerPill " + name + " = " + power ;
+        return temp;
+    }
+    //PowerPill <PowerPill name > = <PowerPill power>
+
+
 
     // instance variables
     // TODO - replace this line with instruction from step 2

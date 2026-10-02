@@ -144,7 +144,7 @@ class PowerPillTest {
         for(String c: color) {
             int expected = rand.nextInt(100);
             PowerPill aPill = new PowerPill(c,expected);
-            int actual = aPill.getPower();
+            int actual = aPill.staticgetPower();
             assertEquals(expected,actual,"Expected " + expected + " got "+ actual);
         }
     }

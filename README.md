@@ -90,10 +90,10 @@ An example of how the class may be used is,
 
 ```java
 PowerPill bluePill = new PowerPill("Blue");
-PowerPill redPill = new PowerPill("Red",40);
+PowerPill redPill = new PowerPill("Red", 40);
 
-int bluePower = bluePill.getPower();
-int redpower = redPill.getPower();
+int bluePower = bluePill.staticgetPower();
+int redpower = redPill.staticgetPower();
 
 ```
 
